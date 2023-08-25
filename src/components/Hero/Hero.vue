@@ -1,6 +1,7 @@
 <script setup>
 import ButtonOrderNow from './ButtonOrderNow.vue'
 </script>
+
 <template>
   <section>
     <div
