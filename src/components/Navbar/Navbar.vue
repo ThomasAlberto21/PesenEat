@@ -10,8 +10,8 @@ import { Disclosure } from '@headlessui/vue'
 
 <template>
   <Disclosure as="nav" class="bg-white shadow-lg" v-slot="{ open }">
-    <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-      <div class="relative flex h-16 items-center justify-between">
+    <div class="px-2 mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="relative flex items-center justify-between h-16">
         <!-- Mobile menu button -->
         <MobileMenuButton :open="open" />
 

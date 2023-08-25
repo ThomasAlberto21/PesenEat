@@ -4,7 +4,7 @@ import { DisclosureButton, DisclosurePanel } from '@headlessui/vue'
 
 <template>
   <DisclosurePanel class="sm:hidden">
-    <div class="space-y-1 px-2 pb-3 pt-2">
+    <div class="px-2 pt-2 pb-3 space-y-1">
       <DisclosureButton
         v-for="item in navigation"
         :key="item.name"

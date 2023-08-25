@@ -3,10 +3,10 @@ import { RouterLink } from 'vue-router'
 </script>
 
 <template>
-  <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+  <div class="flex items-center justify-center flex-1 sm:items-stretch sm:justify-start">
     <!-- Logo -->
-    <RouterLink to="/" class="flex flex-shrink-0 items-center">
-      <img class="h-10 w-auto" src="/images/Logo.png" alt="Your Company" />
+    <RouterLink to="/" class="flex items-center flex-shrink-0">
+      <img class="w-auto h-10" src="/images/Logo.png" alt="Your Company" />
     </RouterLink>
     <!-- Navlinks -->
     <div class="hidden sm:ml-auto sm:mr-auto sm:flex">
