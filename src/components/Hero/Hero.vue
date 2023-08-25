@@ -9,7 +9,7 @@ import ButtonOrderNow from './ButtonOrderNow.vue'
     >
       <div class="mr-auto place-self-center lg:col-span-8">
         <h1
-          class="max-w-3xl mb-4 text-3xl font-bold md:text-7xl xl:text-7xl dark:text-white leading-10"
+          class="max-w-3xl mb-4 text-3xl font-bold leading-10 md:text-7xl xl:text-7xl dark:text-white"
         >
           Get your <b class="text-yellow-500">favorite food </b> straight to your doorstep easily
           and quickly
