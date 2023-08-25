@@ -5,7 +5,6 @@ import NavlinksDesktop from './NavlinksDesktop.vue'
 import MobileMenuButton from './MobileMenuButton.vue'
 import { menuItem } from '../../constants/constants'
 import { navigation } from '../../constants/constants'
-
 import { Disclosure } from '@headlessui/vue'
 </script>
 
