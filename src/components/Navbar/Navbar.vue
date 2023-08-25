@@ -3,9 +3,8 @@ import Profile from './Profile.vue'
 import NavlinksMobile from './NavlinksMobile.vue'
 import NavlinksDesktop from './NavlinksDesktop.vue'
 import MobileMenuButton from './MobileMenuButton.vue'
-import { menuItem } from '../../constants/constants'
-import { navigation } from '../../constants/constants'
 import { Disclosure } from '@headlessui/vue'
+import { navigation, menuItem } from '../../constants/constants'
 </script>
 
 <template>
