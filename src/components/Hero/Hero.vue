@@ -5,7 +5,7 @@ import ButtonOrderNow from './ButtonOrderNow.vue'
 <template>
   <section>
     <div
-      class="grid max-w-screen-xl h-[93vh] px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+      class="grid max-w-screen-xl h-[100vh] px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 mb-20"
     >
       <div class="mr-auto place-self-center lg:col-span-8">
         <h1
@@ -27,7 +27,7 @@ export default {
 
 <style>
 section {
-  background-image: url('../../assets/images/Hero.png');
+  background-image: url('/images/Hero.png');
   background-size: cover;
   background-position: center;
 }

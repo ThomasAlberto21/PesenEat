@@ -11,7 +11,9 @@ import { DisclosureButton, DisclosurePanel } from '@headlessui/vue'
         as="a"
         :href="item.href"
         :class="[
-          item.current ? 'bg-gray-900 text-white' : 'text-black hover:text-yellow-500 font-medium',
+          item.current
+            ? 'bg-gray-900 text-white'
+            : 'text-black hover:text-yellow-500 font-semibold',
           'block rounded-md px-3 py-2 text-base font-medium'
         ]"
         :aria-current="item.current ? 'page' : undefined"
