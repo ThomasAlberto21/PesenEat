@@ -3,9 +3,9 @@ import CardServe from './CardServe.vue'
 </script>
 
 <template>
-  <div class="mx-auto max-w-7xl text-center my-10">
-    <p class="text-yellow-500 text-xl font-semibold">WHAT WE SERVE</p>
-    <h1 class="text-4xl xl:text-7xl font-bold mb-5">
+  <div class="mx-auto my-10 text-center max-w-7xl">
+    <p class="text-xl font-semibold text-yellow-500">WHAT WE SERVE</p>
+    <h1 class="mb-5 text-4xl font-bold xl:text-7xl">
       Our Food Is Always <br />
       Freshly Prepared
     </h1>

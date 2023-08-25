@@ -3,23 +3,23 @@ import { serve } from '../../constants/constants'
 </script>
 
 <template>
-  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-3 px-2">
+  <div class="grid grid-cols-1 gap-3 px-2 md:grid-cols-2 xl:grid-cols-3">
     <div
       v-for="item in serve"
       :key="item.id"
-      class="max-w-md p-6 bg-white border border-gray-200 rounded-2xl shadow-xl mb-3"
+      class="max-w-md p-6 mb-3 bg-white border border-gray-200 shadow-xl rounded-2xl"
     >
       <img
         :src="item.image"
         alt="Service Image"
-        class="w-24 h-24 mx-auto mb-4 p-6 bg-yellow-500 rounded-full"
+        class="w-24 h-24 p-6 mx-auto mb-4 bg-yellow-500 rounded-full"
       />
 
-      <h5 class="mb-2 text-2xl font-semibold tracking-tight text-black mt-5">
+      <h5 class="mt-5 mb-2 text-2xl font-semibold tracking-tight text-black">
         {{ item.title }}
       </h5>
 
-      <p class="mb-3 font-medium leading-6 text-gray-500 mt-5 text-lg">
+      <p class="mt-5 mb-3 text-lg font-medium leading-6 text-gray-500">
         {{ item.description }}
       </p>
     </div>
