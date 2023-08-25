@@ -5,9 +5,9 @@ import { RouterLink } from 'vue-router'
 <template>
   <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
     <!-- Logo -->
-    <div class="flex flex-shrink-0 items-center">
+    <RouterLink to="/" class="flex flex-shrink-0 items-center">
       <img class="h-10 w-auto" src="../../assets/images/Logo.png" alt="Your Company" />
-    </div>
+    </RouterLink>
     <!-- Navlinks -->
     <div class="hidden sm:ml-auto sm:mr-auto sm:flex">
       <div class="flex space-x-6">
