@@ -3,7 +3,7 @@ import { serve } from '../../constants/constants'
 </script>
 
 <template>
-  <div class="grid grid-cols-1 gap-3 px-2 md:grid-cols-2 xl:grid-cols-3">
+  <div class="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
     <div
       v-for="item in serve"
       :key="item.id"

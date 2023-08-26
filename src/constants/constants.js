@@ -40,7 +40,7 @@ export const foodMenu = [
     description:
       '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
     image: '/images/gyro_sandwich.png',
-    price: 15.0,
+    price: 15.3,
     rating: 4.8
   },
   {
@@ -49,7 +49,7 @@ export const foodMenu = [
     description:
       '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
     image: '/images/enchilade.png',
-    price: 25.0,
+    price: 25.2,
     rating: 4.7
   },
   {
@@ -58,7 +58,7 @@ export const foodMenu = [
     description:
       '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
     image: '/images/green_beans.png',
-    price: 12.0,
+    price: 12.1,
     rating: 4.9
   },
   {
