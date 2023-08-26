@@ -32,3 +32,78 @@ export const serve = [
     image: '/images/convenient.png'
   }
 ]
+
+export const foodMenu = [
+  {
+    id: 1,
+    title: 'Gyro Sandwich',
+    description:
+      '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
+    image: '/images/gyro_sandwich.png',
+    price: 15.0,
+    rating: 4.8
+  },
+  {
+    id: 2,
+    title: 'Enchilade',
+    description:
+      '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
+    image: '/images/enchilade.png',
+    price: 25.0,
+    rating: 4.7
+  },
+  {
+    id: 3,
+    title: 'Green Beans',
+    description:
+      '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
+    image: '/images/green_beans.png',
+    price: 12.0,
+    rating: 4.9
+  },
+  {
+    id: 4,
+    title: 'Pizza',
+    description:
+      '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
+    image: '/images/pizza.png',
+    price: 18.5,
+    rating: 4.6
+  },
+  {
+    id: 5,
+    title: 'Chicken Pot Pie',
+    description:
+      '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
+    image: '/images/chicken_pot.png',
+    price: 18.2,
+    rating: 4.5
+  },
+  {
+    id: 6,
+    title: 'Green Salad',
+    description:
+      '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
+    image: '/images/green_beans.png',
+    price: 12.2,
+    rating: 4.4
+  },
+  {
+    id: 7,
+    title: 'Kuakata Fried Chicken',
+    description:
+      '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
+    image: '/images/kuakata.png',
+    price: 22.4,
+    rating: 4.9
+  },
+  {
+    id: 8,
+    title: 'Ruby Tuesday',
+    description:
+      '    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi nobis rem reprehenderit fuga deleniti praesentium sapiente! Inventore, facere error architecto adipisci voluptates magni modi minus qui placeat libero ut ad consequatur reprehenderit voluptas eum perspiciatis ducimus officia tenetur labore voluptatibus eveniet itaque quaerat accusamus! Odio aperiam ea unde atque neque?',
+    image: '/images/ruby.png',
+    price: 25.0,
+    rating: 4.9
+  }
+]
