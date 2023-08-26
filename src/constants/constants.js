@@ -107,3 +107,38 @@ export const foodMenu = [
     rating: 4.9
   }
 ]
+
+export const restaurants = [
+  {
+    id: 1,
+    title: 'Jack in the box',
+    image: '/images/jack_restaurant.png',
+    logo: '/images/logo/jack.png',
+    rating: 4.8,
+    open: true
+  },
+  {
+    id: 2,
+    title: 'Au Bon Pain',
+    image: '/images/au_restaurant.png',
+    logo: '/images/logo/au.png',
+    rating: 4.9,
+    open: true
+  },
+  {
+    id: 3,
+    title: 'TGI Fridays',
+    image: '/images/fridays_restaurant.png',
+    logo: '/images/logo/fridays.png',
+    rating: 4.9,
+    open: true
+  },
+  {
+    id: 4,
+    title: 'Waroeng Steak',
+    image: '/images/waroeng_restaurant.png',
+    logo: '/images/logo/waroeng_steak.png',
+    rating: 4.9,
+    open: false
+  }
+]
