@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router'
 <template>
   <RouterLink
     to="/food-menu"
-    class="inline-flex items-center justify-center gap-2 py-3 mt-5 mr-3 text-base font-semibold text-center text-white bg-yellow-500 rounded-lg px-7 hover:bg-yellow-600"
+    class="inline-flex items-center justify-center gap-2 py-3 mt-5 mr-3 text-base font-bold text-center text-white bg-yellow-400 rounded-lg px-7 hover:bg-yellow-500"
   >
     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path

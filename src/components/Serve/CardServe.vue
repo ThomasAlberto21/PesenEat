@@ -12,7 +12,7 @@ import { serve } from '../../constants/constants'
       <img
         :src="item.image"
         alt="Service Image"
-        class="w-24 h-24 p-6 mx-auto mb-4 bg-yellow-500 rounded-full"
+        class="w-24 h-24 p-6 mx-auto mb-4 bg-yellow-400 rounded-full"
       />
 
       <h5 class="mt-5 mb-2 text-2xl font-semibold tracking-tight text-black">
