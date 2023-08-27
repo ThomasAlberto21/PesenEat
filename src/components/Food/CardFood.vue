@@ -8,16 +8,16 @@ import { Rating } from 'flowbite-vue'
     <div
       v-for="item in foodMenu"
       :key="item.id"
-      class="max-w-screen mb-3 bg-white border border-gray-200 shadow-xl rounded-2xl"
+      class="mb-3 bg-white border border-gray-200 shadow-xl max-w-screen rounded-2xl"
     >
       <img :src="item.image" alt="Service Image" class="w-screen mx-auto mb-4 rounded-t-2xl" />
       <div class="px-4 mt-3 mb-4">
-        <h1 class="mb-2 text-md md:text-2xl xl:text-2xl font-semibold tracking-tight text-black">
+        <h1 class="mb-2 font-semibold tracking-tight text-black text-md md:text-2xl xl:text-2xl">
           {{ item.title }}
         </h1>
 
-        <div class="flex justify-between items-center">
-          <h2 class="text-gray-500 text-xl font-medium">${{ item.price }}</h2>
+        <div class="flex items-center justify-between">
+          <h2 class="text-xl font-medium text-gray-500">${{ item.price }}</h2>
 
           <Rating :rating="1" :scale="1" review-link="#">
             <template #besideText>
