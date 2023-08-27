@@ -7,7 +7,7 @@ import { serve } from '../../constants/constants'
     <div
       v-for="item in serve"
       :key="item.id"
-      class="max-w-md p-6 mb-3 bg-white border border-gray-200 shadow-xl rounded-2xl"
+      class="max-w-screen p-6 mb-3 bg-white border border-gray-200 shadow-xl rounded-2xl"
     >
       <img
         :src="item.image"
