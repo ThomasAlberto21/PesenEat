@@ -17,6 +17,7 @@ import { RouterLink } from 'vue-router'
     Order Now
   </RouterLink>
 </template>
+
 <script>
 export default {
   name: 'ButtonOrderNow'
