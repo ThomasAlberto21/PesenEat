@@ -30,14 +30,14 @@ import { Rating } from 'flowbite-vue'
     }"
     @swiper="Swiper"
     @slideChange="onSlideChange"
-    class="mySwiper max-w-screen-xl"
+    class="max-w-screen-xl mySwiper"
   >
     <swiper-slide v-for="item in restaurants" :key="item.id" class="cursor-pointer">
       <div
         :style="{ backgroundImage: `url(${item.image})` }"
-        class="bg-cover bg-center bg-no-repeat mx-1 md:mx-0 p-7 md:p-10 rounded-lg"
+        class="mx-1 bg-center bg-no-repeat bg-cover rounded-lg md:mx-0 p-7 md:p-10"
       >
-        <div class="flex items-center mt-2 bg-white rounded-xl p-9 gap-5 shadow-2xl">
+        <div class="flex items-center gap-5 mt-2 bg-white shadow-2xl rounded-xl p-9">
           <img
             :src="item.logo"
             :alt="item.title"
@@ -47,7 +47,7 @@ import { Rating } from 'flowbite-vue'
           <div class="block w-screen">
             <h3 class="text-lg font-semibold text-black text-start">{{ item.title }}</h3>
 
-            <div class="block md:flex xl:flex items-center justify-between">
+            <div class="items-center justify-between block md:flex xl:flex">
               <Rating :rating="5" :scale="5" review-link="#">
                 <template #besideText>
                   <h2 class="ml-2 text-lg font-bold text-gray-600">({{ item.rating }})</h2>

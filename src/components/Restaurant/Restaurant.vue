@@ -4,7 +4,7 @@ import ButtonSeeAllRestaurant from './ButtonSeeAllRestaurant.vue'
 </script>
 
 <template>
-  <div class="mx-auto mt-52 mb-10 text-center max-w-7xl px-3">
+  <div class="px-3 mx-auto mb-10 text-center mt-52 max-w-7xl">
     <p class="text-xl font-semibold text-yellow-400">RESTAURANTS</p>
     <h1 class="mb-5 text-4xl font-bold xl:text-7xl">
       Find Your Favorite <br />
