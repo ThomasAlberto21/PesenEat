@@ -9,24 +9,24 @@ import { footer } from '../../constants/constants'
 
 <template>
   <footer class="bg-black">
-    <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+    <div class="w-full max-w-screen-xl p-4 py-6 mx-auto lg:py-8">
       <div class="xl:flex xl:justify-between">
         <div class="mb-6 md:mb-10 xl:mr-20">
-          <h2 class="text-white text-base font-semibold mb-5">
+          <h2 class="mb-5 text-base font-semibold text-white">
             Download the app by clicking the link below
           </h2>
           <div class="flex gap-2">
             <RouterLink to="/">
               <img
                 src="/images/google_play.png"
-                class="w-52 h-auto bg-cover bg-center bg-no-repeat"
+                class="h-auto bg-center bg-no-repeat bg-cover w-52"
                 alt="Google Play"
               />
             </RouterLink>
             <RouterLink to="/">
               <img
                 src="/images/app_store.png"
-                class="w-52 h-auto bg-cover bg-center bg-no-repeat"
+                class="h-auto bg-center bg-no-repeat bg-cover w-52"
                 alt="App Store"
               />
             </RouterLink>

@@ -5,7 +5,7 @@ import { RouterLink } from 'vue-router'
 <template>
   <div>
     <h2 class="mb-6 text-lg font-bold text-white">Legal</h2>
-    <ul class="text-white font-medium">
+    <ul class="font-medium text-white">
       <li class="mb-4" v-for="(legalItem, index) in footer.legal" :key="index">
         <RouterLink :to="legalItem.to" class="hover:underline">{{ legalItem.name }}</RouterLink>
       </li>
