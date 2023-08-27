@@ -6,17 +6,38 @@ import { Rating } from 'flowbite-vue'
 <template>
   <swiper
     :slidesPerView="'auto'"
-    :space-between="30"
-    @swiper="onSwiper"
+    :loop="true"
+    :pagination="{
+      clickable: true
+    }"
+    :autoplay="{
+      delay: 2500,
+      disableOnInteraction: false
+    }"
+    :breakpoints="{
+      '640': {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      '768': {
+        slidesPerView: 1,
+        spaceBetween: 20
+      },
+      '1024': {
+        slidesPerView: 2,
+        spaceBetween: 20
+      }
+    }"
+    @swiper="Swiper"
     @slideChange="onSlideChange"
     class="mySwiper max-w-screen-xl"
   >
     <swiper-slide v-for="item in restaurants" :key="item.id" class="cursor-pointer">
       <div
         :style="{ backgroundImage: `url(${item.image})` }"
-        class="bg-cover bg-center bg-no-repeat shadow-md p-10 rounded-lg"
+        class="bg-cover bg-center bg-no-repeat mx-1 md:mx-0 p-7 md:p-10 rounded-lg"
       >
-        <div class="flex items-center mt-2 bg-white rounded-xl p-9 gap-5">
+        <div class="flex items-center mt-2 bg-white rounded-xl p-9 gap-5 shadow-2xl">
           <img
             :src="item.logo"
             :alt="item.title"
@@ -52,6 +73,8 @@ import { Rating } from 'flowbite-vue'
 
 <script>
 import { Swiper, SwiperSlide } from 'swiper/vue'
+import { Autoplay, Pagination } from 'swiper/modules'
+import 'swiper/css/pagination'
 
 export default {
   name: 'CardRestaurantComponent',
@@ -59,6 +82,12 @@ export default {
   components: {
     Swiper,
     SwiperSlide
+  },
+
+  setup() {
+    return {
+      modules: [Autoplay, Pagination]
+    }
   }
 }
 </script>
