@@ -8,7 +8,7 @@ import { Rating } from 'flowbite-vue'
     <div
       v-for="item in foodMenu"
       :key="item.id"
-      class="max-w-md mb-3 bg-white border border-gray-200 shadow-xl rounded-2xl"
+      class="max-w-screen mb-3 bg-white border border-gray-200 shadow-xl rounded-2xl"
     >
       <img :src="item.image" alt="Service Image" class="w-screen mx-auto mb-4 rounded-t-2xl" />
       <div class="px-4 mt-3 mb-4">
