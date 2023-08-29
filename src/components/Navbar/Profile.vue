@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink } from 'vue-router'
-import { ShoppingCartIcon } from '@heroicons/vue/24/outline'
+import { Icon } from '@iconify/vue'
 import { Menu, MenuButton, MenuItems } from '@headlessui/vue'
 </script>
 
@@ -12,7 +12,7 @@ import { Menu, MenuButton, MenuItems } from '@headlessui/vue'
       <span class="absolute -inset-1.5" />
       <span class="sr-only">View notifications</span>
 
-      <ShoppingCartIcon class="w-6 h-6 text-black" aria-hidden="true" />
+      <Icon icon="mdi:cart" class="w-6 h-6 text-gray-800" aria-hidden="true" />
     </button>
 
     <!-- Profile dropdown -->
