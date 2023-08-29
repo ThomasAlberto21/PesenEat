@@ -7,7 +7,7 @@ import { Icon } from '@iconify/vue'
   <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
     <!-- Mobile menu button-->
     <DisclosureButton
-      class="relative inline-flex items-center justify-center p-2 text-gray-400 rounded-md hover:bg-yellow-500 hover:text-white"
+      class="relative inline-flex items-center justify-center p-2 text-gray-800 rounded-md hover:bg-yellow-500 hover:text-white"
     >
       <span class="absolute -inset-0.5" />
       <span class="sr-only">Open main menu</span>

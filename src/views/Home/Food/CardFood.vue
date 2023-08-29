@@ -1,5 +1,5 @@
 <script setup>
-import { foodMenu } from '../../constants/constants'
+import { foodMenu } from '../../../constants/constants'
 import { Rating } from 'flowbite-vue'
 </script>
 

@@ -1,5 +1,5 @@
 <script setup>
-import { restaurants } from '../../constants/constants'
+import { restaurants } from '../../../constants/constants'
 import { Rating } from 'flowbite-vue'
 </script>
 
