@@ -11,7 +11,7 @@ import Button from '@/components/Button.vue'
       Restaurants
     </h1>
     <CardRestaurant />
-    <Button icon="bi:shop" title="See All Restaurants" to="/food-menu" />
+    <Button icon="bi:shop" title="See All Restaurants" to="/restaurants" />
   </div>
 </template>
 

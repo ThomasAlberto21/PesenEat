@@ -1,5 +1,5 @@
 <script setup>
-import ButtonOrderNow from './ButtonOrderNow.vue'
+import Button from '@/components/Button.vue'
 </script>
 
 <template>
@@ -12,7 +12,7 @@ import ButtonOrderNow from './ButtonOrderNow.vue'
           Get your <b class="text-yellow-400">favorite food </b> straight to your doorstep easily
           and quickly
         </h1>
-        <ButtonOrderNow />
+        <Button icon="fluent:food-16-filled" title="Order Now" to="/food-menu" />
       </div>
     </div>
   </section>
