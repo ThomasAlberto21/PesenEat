@@ -26,6 +26,6 @@ import Button from '@/components/Button.vue'
 
 <script>
 export default {
-  name: 'HeroComponent'
+  name: 'HeroSection'
 }
 </script>
