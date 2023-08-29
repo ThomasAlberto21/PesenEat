@@ -115,7 +115,7 @@ export const restaurants = [
     image: '/images/jack_restaurant.png',
     logo: '/images/logo/jack.png',
     rating: 4.8,
-    open: true
+    open: false
   },
   {
     id: 2,

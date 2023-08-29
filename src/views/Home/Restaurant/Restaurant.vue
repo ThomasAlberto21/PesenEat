@@ -1,6 +1,9 @@
 <script setup>
-import CardRestaurant from './CardRestaurant.vue'
+import 'swiper/css/pagination'
 import Button from '@/components/Button.vue'
+import CardRestaurant from '@/components/CardRestaurant.vue'
+import { restaurants } from '@/constants/constants'
+import { Swiper, SwiperSlide } from 'swiper/vue'
 </script>
 
 <template>
@@ -10,13 +13,43 @@ import Button from '@/components/Button.vue'
       Find Your Favorite <br />
       Restaurants
     </h1>
-    <CardRestaurant />
+
+    <swiper
+      :slidesPerView="'auto'"
+      :loop="true"
+      :autoplay="{
+        delay: 2500,
+        disableOnInteraction: false
+      }"
+      :breakpoints="{
+        '640': {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        '768': {
+          slidesPerView: 1,
+          spaceBetween: 20
+        },
+        '1024': {
+          slidesPerView: 2,
+          spaceBetween: 20
+        }
+      }"
+      @swiper="Swiper"
+      @slideChange="onSlideChange"
+      class="max-w-screen-xl mySwiper"
+    >
+      <swiper-slide v-for="item in restaurants" :key="item.id" class="cursor-pointer">
+        <CardRestaurant :item="item" />
+      </swiper-slide>
+    </swiper>
+
     <Button icon="bi:shop" title="See All Restaurants" to="/restaurants" />
   </div>
 </template>
 
 <script>
 export default {
-  name: 'RestaurantComponent'
+  name: 'RestaurantSection'
 }
 </script>
