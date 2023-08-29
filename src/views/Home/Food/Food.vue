@@ -1,6 +1,6 @@
 <script setup>
 import CardFood from './CardFood.vue'
-import ButtonSeeAllFood from './ButtonSeeAllFood.vue'
+import Button from '@/components/Button.vue'
 </script>
 
 <template>
@@ -10,7 +10,7 @@ import ButtonSeeAllFood from './ButtonSeeAllFood.vue'
 
     <CardFood />
     <div class="text-center">
-      <ButtonSeeAllFood />
+      <Button icon="fluent:food-16-filled" title="See All Foods" to="/food-menu" />
     </div>
   </div>
 </template>

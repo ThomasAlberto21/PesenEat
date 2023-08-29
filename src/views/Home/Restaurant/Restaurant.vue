@@ -1,6 +1,6 @@
 <script setup>
 import CardRestaurant from './CardRestaurant.vue'
-import ButtonSeeAllRestaurant from './ButtonSeeAllRestaurant.vue'
+import Button from '@/components/Button.vue'
 </script>
 
 <template>
@@ -11,7 +11,7 @@ import ButtonSeeAllRestaurant from './ButtonSeeAllRestaurant.vue'
       Restaurants
     </h1>
     <CardRestaurant />
-    <ButtonSeeAllRestaurant />
+    <Button icon="bi:shop" title="See All Restaurants" to="/food-menu" />
   </div>
 </template>
 
