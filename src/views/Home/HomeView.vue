@@ -1,8 +1,8 @@
 <script setup>
-import Hero from './Hero/Hero.vue'
-import Serve from './Serve/Serve.vue'
-import Food from './Food/Food.vue'
-import Restaurant from './Restaurant/Restaurant.vue'
+import Hero from './layout/Hero.vue'
+import Serve from './layout/Serve.vue'
+import Food from './layout/Food.vue'
+import Restaurant from './layout/Restaurant.vue'
 </script>
 
 <template>
