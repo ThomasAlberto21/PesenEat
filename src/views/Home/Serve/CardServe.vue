@@ -1,5 +1,5 @@
 <script setup>
-import { serve } from '../../../constants/constants'
+import { serve } from '@/constants/constants'
 </script>
 
 <template>
