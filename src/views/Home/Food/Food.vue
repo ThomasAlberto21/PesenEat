@@ -26,6 +26,6 @@ import { foodMenu } from '@/constants/constants'
 
 <script>
 export default {
-  name: 'FoodParent'
+  name: 'FoodSection'
 }
 </script>

@@ -1,5 +1,6 @@
 <script setup>
-import CardServe from './CardServe.vue'
+import CardServe from '@/components/CardServe.vue'
+import { serve } from '@/constants/constants'
 </script>
 
 <template>
@@ -9,11 +10,21 @@ import CardServe from './CardServe.vue'
       Our Food Is Always <br />
       Freshly Prepared
     </h1>
-    <CardServe />
+
+    <div class="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3">
+      <div
+        v-for="item in serve"
+        :key="item.id"
+        class="p-6 mb-3 bg-white border border-gray-200 shadow-xl max-w-screen rounded-2xl"
+      >
+        <CardServe :item="item" />
+      </div>
+    </div>
   </div>
 </template>
+
 <script>
 export default {
-  name: 'ServeComponent'
+  name: 'ServeSection'
 }
 </script>
