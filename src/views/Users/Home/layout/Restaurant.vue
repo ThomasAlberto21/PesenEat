@@ -1,6 +1,6 @@
 <script setup>
 import 'swiper/css/pagination'
-import Button from '@/components/Button.vue'
+import Button from '@/components/ButtonIcon.vue'
 import CardRestaurant from '@/components/CardRestaurant.vue'
 import { restaurants } from '@/constants/constants'
 import { Swiper, SwiperSlide } from 'swiper/vue'
