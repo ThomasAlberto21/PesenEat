@@ -36,7 +36,6 @@ import { Swiper, SwiperSlide } from 'swiper/vue'
         }
       }"
       @swiper="Swiper"
-      @slideChange="onSlideChange"
       class="max-w-screen-xl mySwiper"
     >
       <swiper-slide v-for="item in restaurants" :key="item.id" class="cursor-pointer">

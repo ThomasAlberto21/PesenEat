@@ -8,7 +8,7 @@ export const navigation = [
 export const menuItem = [
   { name: 'Your Profile', to: '/profile', current: false },
   { name: 'Settings', to: '/settings', current: false },
-  { name: 'Sign Out', to: '/sign-out', current: false }
+  { name: 'Sign Out', to: '/login', current: false }
 ]
 
 export const serve = [
@@ -148,20 +148,20 @@ export const footer = {
     { name: 'Home', to: '/' },
     { name: 'Food Menu', to: '/food-menu' },
     { name: 'Restaurants', to: '/restaurants' },
-    { name: 'Contact Us', to: '/contact' }
+    { name: 'Contact Us', to: '/contact-us' }
   ],
   contact: [
     { name: '(406) 555-0120', to: 'tel:4065550120', icon: 'ph:phone-fill' },
     { name: 'peseneat@gmail.com', to: 'mailto:', icon: 'material-symbols:mail' },
     {
       name: '2972 Westheimer Rd. Santa Ana',
-      to: 'https://www.google.com/maps',
+      to: '/',
       icon: 'fluent:location-12-filled'
     }
   ],
   legal: [
-    { name: 'Privacy policy', to: '/privacy-policy' },
-    { name: 'Terms of Conditions', to: '/terms-of-Conditions' }
+    { name: 'Privacy policy', to: '/' },
+    { name: 'Terms of Conditions', to: '/' }
   ],
   mediaSocial: [
     { icon: 'mdi:linkedin', to: '/' },

@@ -1,6 +1,6 @@
 <script setup>
-import { RouterLink } from 'vue-router'
 import { Icon } from '@iconify/vue'
+import { RouterLink } from 'vue-router'
 import { Menu, MenuButton, MenuItems } from '@headlessui/vue'
 </script>
 
@@ -8,12 +8,14 @@ import { Menu, MenuButton, MenuItems } from '@headlessui/vue'
   <div
     class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0"
   >
-    <button type="button" class="relative p-1 text-gray-400 rounded-full">
-      <span class="absolute -inset-1.5" />
-      <span class="sr-only">View notifications</span>
-
-      <Icon icon="mdi:cart" class="w-6 h-6 text-gray-800" aria-hidden="true" />
-    </button>
+    <!-- Cart -->
+    <RouterLink to="/cart">
+      <button type="button" class="relative p-1 text-gray-400 rounded-full">
+        <span class="absolute -inset-1.5" />
+        <span class="sr-only">View notifications</span>
+        <Icon icon="mdi:cart" class="w-6 h-6 text-gray-800" aria-hidden="true" />
+      </button>
+    </RouterLink>
 
     <!-- Profile dropdown -->
     <Menu as="div" class="relative ml-3">
