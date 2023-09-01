@@ -9,3 +9,9 @@ import Footer from '@/layout/Footer/Footer.vue'
   <RouterView />
   <Footer />
 </template>
+
+<script>
+export default {
+  name: 'UsersView'
+}
+</script>
