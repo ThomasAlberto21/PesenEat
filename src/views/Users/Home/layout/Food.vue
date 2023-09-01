@@ -1,5 +1,5 @@
 <script setup>
-import Button from '@/components/ButtonIcon.vue'
+import ButtonIcon from '@/components/Button/ButtonPrimaryIcon.vue'
 import CardFood from '@/components/CardFood.vue'
 import { foodMenu } from '@/constants/constants'
 </script>
@@ -19,7 +19,7 @@ import { foodMenu } from '@/constants/constants'
       </div>
     </div>
     <div class="text-center">
-      <Button icon="fluent:food-16-filled" title="See All Foods" to="/food-menu" />
+      <ButtonIcon icon="fluent:food-16-filled" title="See All Foods" to="/food-menu" />
     </div>
   </div>
 </template>
