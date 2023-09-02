@@ -6,8 +6,12 @@ import FormLayout from '@/views/Login/layout/Form.vue'
 <template>
   <div class="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
     <div class="max-w-screen m-0 bg-white shadow sm:rounded-lg flex justify-center flex-1">
-      <ImageLayout />
+      <!--  Image Layout -->
+      <div class="lg:w-6/12 xl:w-6/12 text-center hidden lg:flex">
+        <ImageLayout />
+      </div>
 
+      <!-- Form Layout -->
       <div class="lg:w-6/12 xl:w-6/12 p-6 sm:p-12">
         <FormLayout />
       </div>
